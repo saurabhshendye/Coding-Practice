@@ -68,7 +68,7 @@ public class MyLinkedList <E> {
         if (position > size/2){
             pos = size - position - 1;
             node = tail;
-            for (i = 0; i < pos; i++){
+            for (i = 0; i <= pos; i++){
                 node = node.prev;
             }
             breakLinks(node);
@@ -76,7 +76,7 @@ public class MyLinkedList <E> {
         } else {
             pos = position;
             node = head;
-            for (i = 0; i < pos; i++){
+            for (i = 0; i <= pos; i++){
                 node = node.next;
             }
             breakLinks(node);
