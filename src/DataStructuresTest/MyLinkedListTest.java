@@ -1,6 +1,6 @@
 package DataStructuresTest;
 
-import DataStructures.MyLinkedList;
+import DataStructures.LinkedList.MyLinkedList;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
