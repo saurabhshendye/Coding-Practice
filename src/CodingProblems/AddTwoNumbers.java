@@ -21,7 +21,6 @@ public class AddTwoNumbers {
             return l1;
         }
 
-
         int data, carry;
         carry = 0;
 
@@ -39,7 +38,6 @@ public class AddTwoNumbers {
                 l2 = l2.next;
             }
 
-
             if (l3.val >=10) {
                 carry = 1;
                 l3.val = l3.val%10;
@@ -55,12 +53,7 @@ public class AddTwoNumbers {
                 l3.next = new ListNode(carry);
                 l3 = l3.next;
             }
-
-
         }
-
         return l3Head;
-
-
     }
 }
